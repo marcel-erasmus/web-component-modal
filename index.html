@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"/>
+
+        <!-- SCRIPTS -->
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="overlay hidden">
+        </div>
+        <div class="modal hidden" id="modal-quote-1">
+            <div class="modal-title title">
+                <h3>MODAL 1</h3>
+            </div>
+            <div class="modal-body">
+                <div>
+                    The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="button-negative" onclick="dismissModal()">
+                    Dismiss
+                </button>
+            </div>
+        </div>
+
+        <div class="modal hidden" id="modal-quote-2">
+            <div class="modal-title">
+                <h3>MODAL 2</h3>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div>
+                        Build a man a fire and he will be warm for a night.
+                    </div>
+                    <br>
+                    <div class="modal-icon">
+                        <i style="color: #f5363c;" class="ri-fire-fill"></i>
+                    </div>
+                    <br>
+                    <div>
+                        Set a man on fire and he will be warm for the rest of his life.
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="button-negative" onclick="dismissModal()">
+                    Dismiss
+                </button>
+            </div>
+        </div>
+
+        <main>
+            <div class="container-actions">
+                <div>
+                    <button id="button-modal-quote-1" class="button-positive">MODAL 1</button>
+                    <button id="button-modal-quote-2" class="button-positive">MODAL 2</button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
