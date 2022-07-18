@@ -1,1 +1,1 @@
-A simple responsive modal
+A simple responsive modal.
